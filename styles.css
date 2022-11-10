@@ -85,3 +85,8 @@ button {
     margin-top: 10px;
     padding: 5px;
 }
+
+input:not(:focus):not(:placeholder-shown):invalid {
+
+    border: 1px solid red;
+}
