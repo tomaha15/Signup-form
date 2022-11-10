@@ -1,3 +1,8 @@
+@font-face {
+    font-family: sailor;
+    src: url(fonts/Kolker_Brush/KolkerBrush-Regular.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -22,16 +27,34 @@ img {
     width: auto;
 }
 
-.form-container {
+.form-flex {
     display: flex;
-    width: 100px;
     flex:1;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    width: 95%;
+    height: 95%;
     background-color: #e0ded5d7;
+}
+.banner-flex{
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    font-size: 3em;
+    color: rgba(255, 255, 255, 0.767);
 }
 .banner {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 15vh;
     width: 100%;
     background-color: rgba(39, 38, 38, 0.322);
     top:40vh;
+    font-family: sailor, Times, serif;
 }
