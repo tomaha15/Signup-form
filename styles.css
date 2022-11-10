@@ -80,3 +80,8 @@ img {
 .form-container > div:nth-child(2) {
     padding: 30px;
 }
+
+button {
+    margin-top: 10px;
+    padding: 5px;
+}
