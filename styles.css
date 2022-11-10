@@ -39,6 +39,9 @@ img {
     width: 95%;
     height: 95%;
     background-color: #e0ded5d7;
+    display: flex;
+    flex-direction: column;
+
 }
 .banner-flex{
     /* display: flex;
@@ -57,4 +60,23 @@ img {
     background-color: rgba(39, 38, 38, 0.322);
     top:40vh;
     font-family: sailor, Times, serif;
+}
+
+.form-container div {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+}
+
+.top-text {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.form-container > div:nth-child(2) {
+    padding: 30px;
 }
